@@ -5,13 +5,13 @@
 
 </div>
 
-  <h3 align="center">An AI Article Summarizer Website</h3>
-
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Angular-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Redux-black?style=for-the-badge&logoColor=white&logo=redux&color=764ABC" alt="redux" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-HTML-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
 </div>
@@ -22,18 +22,10 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Summarize any kind of article with just one click using the powerful OpenAI model.
-
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Medical Pager is an advanced, fully responsive chat application tailored to facilitate seamless communication between patients and healthcare providers. It offers a robust platform for both direct and group chats, ensuring that patients can easily share their concerns and receive timely support. The app is equipped with a variety of modern messaging features, including emojis and reactions for expressive interactions, built-in GIF support to add a touch of levity, and the ability to edit and delete messages for maintaining clear and accurate communication. Additionally, specialized commands enhance the user experience by providing quick access to essential functions. Designed with the unique needs of the medical community in mind, Medical Pager stands out as the premier chat app for fostering effective and engaging patient-provider communication.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -41,20 +33,32 @@ If you're getting started and need assistance or face any bugs, join our active 
 - TypeScript
 - Redux Toolkit
 - Tailwind CSS
+- HTML
+- Angular
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Modern User Interface**: A modern and user-friendly interface, offering an intuitive experience for users.
+👉 Modern User Interface: A sleek and user-friendly interface, offering an intuitive and engaging experience for both patients and healthcare providers.
 
-👉 **Summary Generation**: Users can input the URL of a lengthy article, and the web app utilizes AI to provide a concise summary of the article content.
+👉 Direct and Group Chats: Facilitates seamless communication through direct messages and group chats, allowing patients to easily share their concerns and receive timely support.
 
-👉 **History Saving with Local Storage**: The app includes a history feature, allowing users to save summaries locally, providing a convenient way to revisit and manage their reading history.
+👉 Emojis & Reactions: Enhances interaction with a variety of emojis and reaction options, making conversations more expressive and engaging.
 
-👉 **Copy to Clipboard Functionality**: Enables users to easily share or store the summarized content by copying it to their clipboard.
+👉 Built-in GIF Support: Adds a touch of levity and personalization to conversations with integrated GIF support.
 
-👉 **Advanced RTK Query API Requests**: Utilizes the advanced capabilities of Redux Toolkit (RTK) Query for making API requests. These requests fire conditionally based on specific criteria, optimizing data fetching and management.
+👉 Message Editing & Deletion: Provides the ability to edit and delete messages, ensuring clear and accurate communication.
 
-and many more, including code architecture and reusability 
+👉 Specialized Commands: Includes commands tailored to the medical context, offering quick access to essential functions and information.
+
+👉 Authentication & SMS Notifications: Ensures secure access with robust authentication mechanisms and keeps users informed with real-time SMS notifications.
+
+👉 History Saving with Local Storage: Saves chat history locally, allowing users to revisit past conversations and manage their communication history efficiently.
+
+👉 Copy to Clipboard Functionality: Enables easy sharing or storing of important messages by copying content to the clipboard.
+
+👉 Advanced RTK Query API Requests: Utilizes the advanced capabilities of Redux Toolkit (RTK) Query for making conditional API requests, optimizing data fetching and management.
+
+👉 Advanced Netlify and Heroku Deployment: Utilizes netlify to deploy local site(frontend), Heroku CLI to counter Server Backend and Stream API for chat backround usage.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
