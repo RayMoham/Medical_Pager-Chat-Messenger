@@ -29,12 +29,17 @@ Medical Pager is an advanced, fully responsive chat application tailored to faci
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React.js
-- TypeScript
-- Redux Toolkit
-- Tailwind CSS
-- HTML
-- Angular
+- **React.js**: Powers the dynamic and interactive user interface of the application, enabling a sleek and user-friendly experience for both patients and healthcare providers.
+
+- **TypeScript**: Ensures robust typing and improves code quality, maintainability, and developer productivity by catching errors early and providing a strong type system throughout the project.
+
+- **Redux Toolkit**: Manages application state efficiently, facilitating seamless communication features like direct and group chats, and leveraging RTK Query for optimized data fetching and management.
+
+- **Tailwind CSS**: Provides a utility-first approach to styling, allowing for the creation of a visually appealing and responsive design quickly and efficiently.
+
+- **HTML**: Serves as the foundation for structuring the web pages, ensuring proper content organization and accessibility.
+
+- **Angular**: Utilized for specific components or modules that require its powerful two-way data binding and dependency injection features.
 
 ## <a name="features">🔋 Features</a>
 
@@ -60,7 +65,7 @@ Medical Pager is an advanced, fully responsive chat application tailored to faci
 
 👉 Advanced Netlify and Heroku Deployment: Utilizes netlify to deploy local site(frontend), Heroku CLI to counter Server Backend and Stream API for chat backround usage.
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🤸 Quick Start Installation</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -104,5 +109,16 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+
+Contributing
+------------
+
+If you're interested in contributing to the project, please submit a pull request. Make sure your changes adhere to the project's coding standards and best practices.
+
+License
+-------
+
+This project is open-source and available under the [MIT License](https://chat.openai.com/LICENSE).
 
 
